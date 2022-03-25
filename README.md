@@ -28,3 +28,4 @@ Flags:
 
 * the user must exist in the image, you can add "RUN useradd dev" to create one
 * su must exist in the image
+* the image default user have permisson to su to other user, we are using root
